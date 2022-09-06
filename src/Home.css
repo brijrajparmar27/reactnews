@@ -1,0 +1,36 @@
+.home{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home .news_contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    width: 80vw;
+}
+.home .pages
+{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.home .pages .btn{
+    /* background-color: aqua; */
+    cursor: pointer;
+    padding: 2px 5px;
+    border: 1px solid rgb(194, 194, 194);
+}
+.home .pages .btn h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.disabled{
+    color: gray;
+}
